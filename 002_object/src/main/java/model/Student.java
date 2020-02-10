@@ -2,8 +2,8 @@ package model;
 
 public class Student {
     private String name;
-    private  int age;
-    private  String gender;
+    private int age;
+    private String gender;
 
     public Student() {
     }
@@ -38,10 +38,11 @@ public class Student {
         this.gender = gender;
     }
 
-    public void study(){
+    public void study() {
         System.out.println("study now~");
     }
-    public void rest(){
+
+    public void rest() {
         System.out.println("rest now~");
     }
 }

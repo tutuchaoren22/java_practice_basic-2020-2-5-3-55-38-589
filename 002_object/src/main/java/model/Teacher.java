@@ -30,7 +30,7 @@ public class Teacher {
         this.studentList = studentList;
     }
 
-    public void addStudent(Student student){
+    public void addStudent(Student student) {
         this.studentList.add(student);
     }
 }
